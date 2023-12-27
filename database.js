@@ -1,5 +1,5 @@
-const sqlite3 = require('sqlite3');
-const db = new sqlite3.Database('myapp.db');
+const sqlite3 = require("sqlite3");
+const db = new sqlite3.Database("myapp.db");
 
 // Создаем таблицу продуктов
 db.run(`
